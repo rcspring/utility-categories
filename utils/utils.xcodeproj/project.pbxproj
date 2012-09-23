@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC701D15160F068500B0E050 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC701D14160F068500B0E050 /* UIKit.framework */; };
+		EC701D17160F068500B0E050 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC701D16160F068500B0E050 /* Foundation.framework */; };
+		EC701D19160F068500B0E050 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC701D18160F068500B0E050 /* CoreGraphics.framework */; };
+		EC701D1F160F068600B0E050 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC701D1D160F068600B0E050 /* InfoPlist.strings */; };
+		EC701D21160F068600B0E050 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC701D20160F068600B0E050 /* main.m */; };
+		EC701D25160F068600B0E050 /* RCSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC701D24160F068600B0E050 /* RCSAppDelegate.m */; };
+		EC701D27160F068600B0E050 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EC701D26160F068600B0E050 /* Default.png */; };
+		EC701D29160F068600B0E050 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC701D28160F068600B0E050 /* Default@2x.png */; };
+		EC701D2B160F068600B0E050 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC701D2A160F068600B0E050 /* Default-568h@2x.png */; };
+		EC701D33160F071F00B0E050 /* UIView+RCSUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = EC701D32160F071F00B0E050 /* UIView+RCSUtils.m */; };
+		EC701D35160F0CCF00B0E050 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC701D34160F0CCF00B0E050 /* QuartzCore.framework */; };
+		EC701D39160F0DAB00B0E050 /* RCSMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC701D37160F0DAB00B0E050 /* RCSMainViewController.m */; };
+		EC701D3A160F0DAB00B0E050 /* RCSMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC701D38160F0DAB00B0E050 /* RCSMainViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC701D10160F068500B0E050 /* utils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = utils.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC701D14160F068500B0E050 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EC701D16160F068500B0E050 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EC701D18160F068500B0E050 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EC701D1C160F068600B0E050 /* utils-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "utils-Info.plist"; sourceTree = "<group>"; };
+		EC701D1E160F068600B0E050 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC701D20160F068600B0E050 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC701D22160F068600B0E050 /* utils-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "utils-Prefix.pch"; sourceTree = "<group>"; };
+		EC701D23160F068600B0E050 /* RCSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCSAppDelegate.h; sourceTree = "<group>"; };
+		EC701D24160F068600B0E050 /* RCSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCSAppDelegate.m; sourceTree = "<group>"; };
+		EC701D26160F068600B0E050 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EC701D28160F068600B0E050 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EC701D2A160F068600B0E050 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EC701D31160F071F00B0E050 /* UIView+RCSUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RCSUtils.h"; sourceTree = "<group>"; };
+		EC701D32160F071F00B0E050 /* UIView+RCSUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RCSUtils.m"; sourceTree = "<group>"; };
+		EC701D34160F0CCF00B0E050 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EC701D36160F0DAB00B0E050 /* RCSMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCSMainViewController.h; sourceTree = "<group>"; };
+		EC701D37160F0DAB00B0E050 /* RCSMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCSMainViewController.m; sourceTree = "<group>"; };
+		EC701D38160F0DAB00B0E050 /* RCSMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RCSMainViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC701D0D160F068500B0E050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC701D35160F0CCF00B0E050 /* QuartzCore.framework in Frameworks */,
+				EC701D15160F068500B0E050 /* UIKit.framework in Frameworks */,
+				EC701D17160F068500B0E050 /* Foundation.framework in Frameworks */,
+				EC701D19160F068500B0E050 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC701D05160F068500B0E050 = {
+			isa = PBXGroup;
+			children = (
+				EC701D1A160F068500B0E050 /* utils */,
+				EC701D13160F068500B0E050 /* Frameworks */,
+				EC701D11160F068500B0E050 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC701D11160F068500B0E050 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC701D10160F068500B0E050 /* utils.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC701D13160F068500B0E050 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC701D34160F0CCF00B0E050 /* QuartzCore.framework */,
+				EC701D14160F068500B0E050 /* UIKit.framework */,
+				EC701D16160F068500B0E050 /* Foundation.framework */,
+				EC701D18160F068500B0E050 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC701D1A160F068500B0E050 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				EC701D23160F068600B0E050 /* RCSAppDelegate.h */,
+				EC701D24160F068600B0E050 /* RCSAppDelegate.m */,
+				EC701D36160F0DAB00B0E050 /* RCSMainViewController.h */,
+				EC701D37160F0DAB00B0E050 /* RCSMainViewController.m */,
+				EC701D38160F0DAB00B0E050 /* RCSMainViewController.xib */,
+				EC701D1B160F068600B0E050 /* Supporting Files */,
+				EC701D31160F071F00B0E050 /* UIView+RCSUtils.h */,
+				EC701D32160F071F00B0E050 /* UIView+RCSUtils.m */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		EC701D1B160F068600B0E050 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC701D1C160F068600B0E050 /* utils-Info.plist */,
+				EC701D1D160F068600B0E050 /* InfoPlist.strings */,
+				EC701D20160F068600B0E050 /* main.m */,
+				EC701D22160F068600B0E050 /* utils-Prefix.pch */,
+				EC701D26160F068600B0E050 /* Default.png */,
+				EC701D28160F068600B0E050 /* Default@2x.png */,
+				EC701D2A160F068600B0E050 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC701D0F160F068500B0E050 /* utils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC701D2E160F068600B0E050 /* Build configuration list for PBXNativeTarget "utils" */;
+			buildPhases = (
+				EC701D0C160F068500B0E050 /* Sources */,
+				EC701D0D160F068500B0E050 /* Frameworks */,
+				EC701D0E160F068500B0E050 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = utils;
+			productName = utils;
+			productReference = EC701D10160F068500B0E050 /* utils.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC701D07160F068500B0E050 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RCS;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Ryan Spring";
+			};
+			buildConfigurationList = EC701D0A160F068500B0E050 /* Build configuration list for PBXProject "utils" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EC701D05160F068500B0E050;
+			productRefGroup = EC701D11160F068500B0E050 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC701D0F160F068500B0E050 /* utils */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC701D0E160F068500B0E050 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC701D1F160F068600B0E050 /* InfoPlist.strings in Resources */,
+				EC701D27160F068600B0E050 /* Default.png in Resources */,
+				EC701D29160F068600B0E050 /* Default@2x.png in Resources */,
+				EC701D2B160F068600B0E050 /* Default-568h@2x.png in Resources */,
+				EC701D3A160F0DAB00B0E050 /* RCSMainViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC701D0C160F068500B0E050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC701D21160F068600B0E050 /* main.m in Sources */,
+				EC701D25160F068600B0E050 /* RCSAppDelegate.m in Sources */,
+				EC701D33160F071F00B0E050 /* UIView+RCSUtils.m in Sources */,
+				EC701D39160F0DAB00B0E050 /* RCSMainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC701D1D160F068600B0E050 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC701D1E160F068600B0E050 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC701D2C160F068600B0E050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC701D2D160F068600B0E050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC701D2F160F068600B0E050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "utils/utils-Prefix.pch";
+				INFOPLIST_FILE = "utils/utils-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EC701D30160F068600B0E050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "utils/utils-Prefix.pch";
+				INFOPLIST_FILE = "utils/utils-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC701D0A160F068500B0E050 /* Build configuration list for PBXProject "utils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC701D2C160F068600B0E050 /* Debug */,
+				EC701D2D160F068600B0E050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC701D2E160F068600B0E050 /* Build configuration list for PBXNativeTarget "utils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC701D2F160F068600B0E050 /* Debug */,
+				EC701D30160F068600B0E050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC701D07160F068500B0E050 /* Project object */;
+}
