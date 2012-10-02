@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC18A5E3161B26970011C699 /* UIFont+RCSUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = EC18A5E1161B26970011C699 /* UIFont+RCSUtils.m */; };
 		EC701D15160F068500B0E050 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC701D14160F068500B0E050 /* UIKit.framework */; };
 		EC701D17160F068500B0E050 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC701D16160F068500B0E050 /* Foundation.framework */; };
 		EC701D19160F068500B0E050 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC701D18160F068500B0E050 /* CoreGraphics.framework */; };
@@ -20,9 +21,12 @@
 		EC701D35160F0CCF00B0E050 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC701D34160F0CCF00B0E050 /* QuartzCore.framework */; };
 		EC701D39160F0DAB00B0E050 /* RCSMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC701D37160F0DAB00B0E050 /* RCSMainViewController.m */; };
 		EC701D3A160F0DAB00B0E050 /* RCSMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC701D38160F0DAB00B0E050 /* RCSMainViewController.xib */; };
+		ECE8F25E161B28F700614D23 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE8F25D161B28F700614D23 /* CoreText.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC18A5E1161B26970011C699 /* UIFont+RCSUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+RCSUtils.m"; sourceTree = "<group>"; };
+		EC18A5E2161B26970011C699 /* UIFont+RCSUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+RCSUtils.h"; sourceTree = "<group>"; };
 		EC701D10160F068500B0E050 /* utils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = utils.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC701D14160F068500B0E050 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EC701D16160F068500B0E050 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -42,6 +46,7 @@
 		EC701D36160F0DAB00B0E050 /* RCSMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCSMainViewController.h; sourceTree = "<group>"; };
 		EC701D37160F0DAB00B0E050 /* RCSMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCSMainViewController.m; sourceTree = "<group>"; };
 		EC701D38160F0DAB00B0E050 /* RCSMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RCSMainViewController.xib; sourceTree = "<group>"; };
+		ECE8F25D161B28F700614D23 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECE8F25E161B28F700614D23 /* CoreText.framework in Frameworks */,
 				EC701D35160F0CCF00B0E050 /* QuartzCore.framework in Frameworks */,
 				EC701D15160F068500B0E050 /* UIKit.framework in Frameworks */,
 				EC701D17160F068500B0E050 /* Foundation.framework in Frameworks */,
@@ -79,6 +85,7 @@
 		EC701D13160F068500B0E050 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ECE8F25D161B28F700614D23 /* CoreText.framework */,
 				EC701D34160F0CCF00B0E050 /* QuartzCore.framework */,
 				EC701D14160F068500B0E050 /* UIKit.framework */,
 				EC701D16160F068500B0E050 /* Foundation.framework */,
@@ -105,6 +112,8 @@
 		EC701D1B160F068600B0E050 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EC18A5E1161B26970011C699 /* UIFont+RCSUtils.m */,
+				EC18A5E2161B26970011C699 /* UIFont+RCSUtils.h */,
 				EC701D1C160F068600B0E050 /* utils-Info.plist */,
 				EC701D1D160F068600B0E050 /* InfoPlist.strings */,
 				EC701D20160F068600B0E050 /* main.m */,
@@ -187,6 +196,7 @@
 				EC701D25160F068600B0E050 /* RCSAppDelegate.m in Sources */,
 				EC701D33160F071F00B0E050 /* UIView+RCSUtils.m in Sources */,
 				EC701D39160F0DAB00B0E050 /* RCSMainViewController.m in Sources */,
+				EC18A5E3161B26970011C699 /* UIFont+RCSUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +302,7 @@
 				EC701D30160F068600B0E050 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,10 +8,11 @@
 
 #import "RCSMainViewController.h"
 #import "UIView+RCSUtils.h"
+#import "UIFont+RCSUtils.h"
 
 @interface RCSMainViewController ()
 
-@property (nonatomic,retain) IBOutlet UIView* label;
+@property (nonatomic,retain) IBOutlet UILabel* label;
 
 @end
 
@@ -33,7 +34,13 @@
 {
     [super viewDidLoad];
     
-    [self.label setShadowWithColor:[UIColor blueColor] andRadius:2.5 withOffset:CGSizeMake(10,20)];
+    [self.label setShadowWithColor:[UIColor lightGrayColor] andRadius:2.5 withOffset:CGSizeMake(10,20)];
+    
+    // Here we set the label with the italic variant of a font
+    UIFont* exampleFont = [UIFont fontWithName:@"Georgia" size:20];
+    
+    self.label.font = [exampleFont italicFont];
+    
     // Do any additional setup after loading the view from its nib.
 }
 
