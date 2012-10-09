@@ -9,6 +9,7 @@
 #import "RCSMainViewController.h"
 #import "UIView+RCSUtils.h"
 #import "UIFont+RCSUtils.h"
+#import "UILabel+RCSUtils.h"
 
 @interface RCSMainViewController ()
 
@@ -40,6 +41,8 @@
     UIFont* exampleFont = [UIFont fontWithName:@"Georgia" size:20];
     
     self.label.font = [exampleFont italicFont];
+    
+    [self.label adjustFontSizeToFitWithMinimum:5];
     
     // Do any additional setup after loading the view from its nib.
 }

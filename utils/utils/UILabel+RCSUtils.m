@@ -1,12 +1,12 @@
 //
-//  UILabel+RCSAdditions.m
+//  UILabel+RCSUtils.m
 //  Baby
 //
 //  Created by Ryan C. Spring on 10/8/12.
 //
 //
 
-#import "UILabel+RCSAdditions.h"
+#import "UILabel+RCSUtils.h"
 
 @implementation UILabel (RCSUtils)
 
@@ -21,8 +21,6 @@
         CGSize formattedSize = [self.text sizeWithFont:sizeTestFont constrainedToSize:sizeContraintToTest];
         
         if(formattedSize.height < self.frame.size.height) {
-        
-            NSLog(@"size of %d is %f, %f",i,formattedSize.height,self.frame.size.height);
             self.font = sizeTestFont;
             break;
         }
