@@ -6,3 +6,4 @@ Various utility categories that I find useful.  I will add categories as I find 
 It does the following things so far:
 * Configurable shadows for UIViews without too much repetitive CALayer stuff.
 * Create bold and italic versions of a font.
+* Enable font scaling for multi-line UILabels. (largest font that fits.)
