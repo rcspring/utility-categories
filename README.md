@@ -7,3 +7,4 @@ It does the following things so far:
 * Configurable shadows for UIViews without too much repetitive CALayer stuff.
 * Create bold and italic versions of a font.
 * Enable font scaling for multi-line UILabels. (largest font that fits.)
+* Allows font and color manipulation on mutable attributed strings (ios 6 style)

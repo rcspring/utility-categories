@@ -10,6 +10,7 @@
 #import "UIView+RCSUtils.h"
 #import "UIFont+RCSUtils.h"
 #import "UILabel+RCSUtils.h"
+#import "NSMutableAttributedString+RCSUtils.h"
 
 @interface RCSMainViewController ()
 
@@ -38,11 +39,21 @@
     [self.label setShadowWithColor:[UIColor lightGrayColor] andRadius:2.5 withOffset:CGSizeMake(10,20)];
     
     // Here we set the label with the italic variant of a font
+    /*
     UIFont* exampleFont = [UIFont fontWithName:@"Georgia" size:20];
     
     self.label.font = [exampleFont italicFont];
     
     [self.label adjustFontSizeToFitWithMinimum:5];
+     */
+    
+    //here is an example of some of the attributed string handling
+    NSMutableAttributedString* mutAttrString = [[NSMutableAttributedString alloc]initWithString:@"This is a test of attributed strings"];
+    
+    [mutAttrString setFontForEntireAttributedString:[UIFont fontWithName:@"Georgia" size:12]];
+    [mutAttrString setEntireStringToColor:[UIColor purpleColor]];
+    
+    self.label.attributedText = mutAttrString;
     
     // Do any additional setup after loading the view from its nib.
 }

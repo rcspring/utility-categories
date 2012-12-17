@@ -22,6 +22,7 @@
 		EC701D39160F0DAB00B0E050 /* RCSMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC701D37160F0DAB00B0E050 /* RCSMainViewController.m */; };
 		EC701D3A160F0DAB00B0E050 /* RCSMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC701D38160F0DAB00B0E050 /* RCSMainViewController.xib */; };
 		ECB9A4E21624C06400D514B7 /* UILabel+RCSUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB9A4E01624C06400D514B7 /* UILabel+RCSUtils.m */; };
+		ECC797AF167EA9A200C89D3A /* NSMutableAttributedString+RCSUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC797AE167EA9A200C89D3A /* NSMutableAttributedString+RCSUtils.m */; };
 		ECE8F25E161B28F700614D23 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE8F25D161B28F700614D23 /* CoreText.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,8 @@
 		EC701D38160F0DAB00B0E050 /* RCSMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RCSMainViewController.xib; sourceTree = "<group>"; };
 		ECB9A4E01624C06400D514B7 /* UILabel+RCSUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+RCSUtils.m"; sourceTree = "<group>"; };
 		ECB9A4E11624C06400D514B7 /* UILabel+RCSUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+RCSUtils.h"; sourceTree = "<group>"; };
+		ECC797AD167EA9A200C89D3A /* NSMutableAttributedString+RCSUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+RCSUtils.h"; sourceTree = "<group>"; };
+		ECC797AE167EA9A200C89D3A /* NSMutableAttributedString+RCSUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+RCSUtils.m"; sourceTree = "<group>"; };
 		ECE8F25D161B28F700614D23 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -113,6 +116,8 @@
 		EC701D1B160F068600B0E050 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				ECC797AD167EA9A200C89D3A /* NSMutableAttributedString+RCSUtils.h */,
+				ECC797AE167EA9A200C89D3A /* NSMutableAttributedString+RCSUtils.m */,
 				EC701D31160F071F00B0E050 /* UIView+RCSUtils.h */,
 				EC701D32160F071F00B0E050 /* UIView+RCSUtils.m */,
 				ECB9A4E01624C06400D514B7 /* UILabel+RCSUtils.m */,
@@ -203,6 +208,7 @@
 				EC701D39160F0DAB00B0E050 /* RCSMainViewController.m in Sources */,
 				EC18A5E3161B26970011C699 /* UIFont+RCSUtils.m in Sources */,
 				ECB9A4E21624C06400D514B7 /* UILabel+RCSUtils.m in Sources */,
+				ECC797AF167EA9A200C89D3A /* NSMutableAttributedString+RCSUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
